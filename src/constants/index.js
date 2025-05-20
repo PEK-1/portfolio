@@ -31,6 +31,13 @@ import c3 from "../assets/projects/missing/c3.png";
 import c4 from "../assets/projects/missing/c4.png";
 import c5 from "../assets/projects/missing/c5.png";
 
+import pf1 from '../assets/projects/folio/pf1.png';
+import pf2 from '../assets/projects/folio/pf2.png';
+import pf3 from '../assets/projects/folio/pf3.png';
+import pf4 from '../assets/projects/folio/pf4.png';
+import pf5 from '../assets/projects/folio/pf5.png';
+import pf6 from '../assets/projects/folio/pf6.png';
+
 import TripTrek from "../assets/projects/project1/TripTrek.mp4"
 import indinenne from "../assets/projects/project2/indinenne.mp4"
 export const HERO_CONTENT = `I'm a recent Master's graduate in Computer Science, passionate about full-stack development. 
@@ -80,17 +87,18 @@ export const PROJECTS = [
       "A collaborative travel planner where users can create and share itineraries, visualize trips on an interactive map, and receive AI-generated suggestions with real-time weather integration.",
     technologies: ["Flask", "SQLAlchemy", "JavaScript", "Bootstrap", "OpenAI API"],
   },
-{
+  {
   title: "Innadine – Restaurant Website",
   image: project2,
   gallary:[indinenne,p21,p22,p23,p24,p26,p27],
   description:
     "A dynamic and responsive restaurant website featuring interactive menus, reservation capabilities, and customer engagement tools.",
   technologies: ["React.js", "Redux", "Express.js", "MySQL", "HTML5", "CSS3", "JavaScript"],
-},
+  },
   {
     title: "Portfolio Website",
     image: project3,
+    gallary:[pf1,pf2,pf3,pf4,pf5,pf6],
     description:
       "A personal portfolio showcasing my work, skills, and projects with smooth transitions, a responsive layout, and modern design principles.",
     technologies: ["React", "Tailwind CSS", "JavaScript"],
