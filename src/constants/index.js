@@ -65,7 +65,7 @@ export const EXPERIENCES = [
     year: "2021 - 2023",
     role: "Software Engineer",
     company: "Rayon Technology Solutions Pvt. Ltd.",
-    description: `Developed scalable web applications as a Full Stack Developer using React.js, Node.js, and MongoDB. Implemented user authentication, integrated RESTful APIs, and created dynamic dashboards for real-time data handling. Collaborated with cross-functional teams following Agile methodologies.`,
+    description: `Developed scalable web applications as a Full Stack Developer using React.js, Django, and MySQl. Implemented user authentication, integrated RESTful APIs, and created dynamic dashboards for real-time data handling. Collaborated with cross-functional teams following Agile methodologies.`,
     technologies: ["React.js", "Dijango", "MySQL", "RESTful APIs", "Agile Methodologies"],
   },
 
@@ -101,14 +101,14 @@ export const PROJECTS = [
     gallary:[pf1,pf2,pf3,pf4,pf5,pf6],
     description:
       "A personal portfolio showcasing my work, skills, and projects with smooth transitions, a responsive layout, and modern design principles.",
-    technologies: ["React", "Tailwind CSS", "JavaScript"],
+    technologies: ["React+vite", "Tailwind CSS", "JavaScript"],
   },
   {
     title: "E-Commerce Website",
     image: project4,
     description:
       "An online shopping platform featuring product browsing, cart management, and a user-friendly checkout process.",
-    technologies: ["Node.js", "Express", "MongoDB", "HTML", "CSS", "JavaScript"],
+    technologies: ["Node.js", "MongoDB", "HTML", "CSS", "JavaScript"],
   },
   {
     title: "Modelling Influsion Diffusion Over Signed Social Networks(mini-Project)",
