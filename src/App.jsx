@@ -8,6 +8,8 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import { useEffect, useState } from "react";
+import Testimonials from "./components/Testimonials";
+import Certificates from "./components/Certificates";
 
 const App = () => {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -39,8 +41,10 @@ const App = () => {
           <Hero />
           <About />
           <Technologies />
-          <Projects />
           <Experience />
+          <Projects />
+          <Testimonials/>
+          <Certificates/>
           <Contact />
         </div>
       </main>

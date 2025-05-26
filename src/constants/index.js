@@ -15,28 +15,16 @@ import p24 from "../assets/projects/project2/p24.png";
 import p26 from "../assets/projects/project2/p26.png";
 import p27 from "../assets/projects/project2/p27.png";
 
-import m1 from "../assets/projects/modeling/m1.png";
-import m2 from "../assets/projects/modeling/m2.png";
-import m3 from "../assets/projects/modeling/m3.png";
-import m4 from "../assets/projects/modeling/m4.png";
-import m5 from "../assets/projects/modeling/m5.png";
-import m6 from "../assets/projects/modeling/m6.png";
-import m7 from "../assets/projects/modeling/m7.png";
-import m8 from "../assets/projects/modeling/m8.png";
-import m9 from "../assets/projects/modeling/m9.png";
-
-import c1 from "../assets/projects/missing/c1.png";
-import c2 from "../assets/projects/missing/c2.png";
-import c3 from "../assets/projects/missing/c3.png";
-import c4 from "../assets/projects/missing/c4.png";
-import c5 from "../assets/projects/missing/c5.png";
-
 import pf1 from '../assets/projects/folio/pf1.png';
 import pf2 from '../assets/projects/folio/pf2.png';
 import pf3 from '../assets/projects/folio/pf3.png';
 import pf4 from '../assets/projects/folio/pf4.png';
 import pf5 from '../assets/projects/folio/pf5.png';
 import pf6 from '../assets/projects/folio/pf6.png';
+
+import chern from '../assets/testimonials/chern.png';
+import achanta from '../assets/testimonials/achanta.png';
+import attele from '../assets/testimonials/attele.png';
 
 import TripTrek from "../assets/projects/project1/TripTrek.mp4"
 import indinenne from "../assets/projects/project2/indinenne.mp4"
@@ -53,82 +41,121 @@ Outside the screen, I’m always up for exploring new tools, learning emerging t
 Let’s connect, collaborate, and create.`;
 
 export const EXPERIENCES = [
-
   {
     year: "2023",
     role: "Project Manager Intern",
     company: "Excelerate Program",
-    description: `Led a virtual project management internship focusing on real-world business challenges. Developed dashboards and reports using Excel and Power BI to convey insights effectively. Applied leadership, risk management, and collaborative problem-solving to drive project success.`,
-    technologies: ["Excel", "Power BI", "Leadership", "Risk Management", "Collaborative Problem Solving"],
+    description: `Orchestrated cross-functional virtual project teams to tackle real-world business problems. Led Agile sprint planning, coordinated stakeholder communication, and delivered data-driven dashboards using Excel and Power BI. Strengthened project outcomes through effective risk mitigation and strategic resource allocation.`,
+    technologies: ["Excel", "Power BI", "Agile Methodologies", "Risk Management", "Leadership"],
   },
   {
     year: "2021 - 2023",
     role: "Software Engineer",
     company: "Rayon Technology Solutions Pvt. Ltd.",
-    description: `Developed scalable web applications as a Full Stack Developer using React.js, Django, and MySQl. Implemented user authentication, integrated RESTful APIs, and created dynamic dashboards for real-time data handling. Collaborated with cross-functional teams following Agile methodologies.`,
-    technologies: ["React.js", "Dijango", "MySQL", "RESTful APIs", "Agile Methodologies"],
+    description: `Developed and maintained scalable full-stack web applications using Python, Django, and REST APIs. Improved system performance by 15% through backend optimisations. Collaborated with frontend and mobile teams to ensure seamless API integration. Followed Agile methodologies and participated in pair programming, daily stand-ups, and system design discussions.`,
+    technologies: ["Python", "Django", "REST API", "PostgreSQL", "Docker", "CI/CD", "Agile"],
   },
-
   {
     year: "2021",
     role: "Freelance Android Developer",
     company: "Health Lieasure App",
-    description: `Developed a health and lifestyle tracking mobile app using Android Studio and Java. Implemented activity tracking, reminders, and user authentication. Delivered the complete solution independently from requirements to deployment.`,
+    description: `Independently designed and developed a health and lifestyle tracking Android application. Implemented secure login, activity tracking, and reminder scheduling. Delivered an end-to-end solution from requirements gathering to deployment, enhancing user engagement and retention.`,
     technologies: ["Android Studio", "Java", "XML"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "TripTrek - Travel Planning Web App",
+    title: "TripTrek – AI-Powered Travel Planner",
     image: project1,
-    gallary: [TripTrek,p11,p12,p13,p14,p15],
+    gallary: [TripTrek, p11, p12, p13, p14, p15],
     description:
-      "A collaborative travel planner where users can create and share itineraries, visualize trips on an interactive map, and receive AI-generated suggestions with real-time weather integration.",
+      "A collaborative travel planning platform that allows users to create, visualise, and share itineraries. Integrated OpenAI API to provide personalised trip suggestions with real-time weather overlays. Built using Flask, Bootstrap, and JavaScript for a seamless user experience.",
     technologies: ["Flask", "SQLAlchemy", "JavaScript", "Bootstrap", "OpenAI API"],
   },
   {
-  title: "Innadine – Restaurant Website",
-  image: project2,
-  gallary:[indinenne,p21,p22,p23,p24,p26,p27],
-  description:
-    "A dynamic and responsive restaurant website featuring interactive menus, reservation capabilities, and customer engagement tools.",
-  technologies: ["React.js", "Redux", "Express.js", "MySQL", "HTML5", "CSS3", "JavaScript"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    gallary:[pf1,pf2,pf3,pf4,pf5,pf6],
+    title: "Innadine – Interactive Restaurant Platform",
+    image: project2,
+    gallary: [indinenne, p21, p22, p23, p24, p26, p27],
     description:
-      "A personal portfolio showcasing my work, skills, and projects with smooth transitions, a responsive layout, and modern design principles.",
-    technologies: ["React+vite", "Tailwind CSS", "JavaScript"],
+      "A fully responsive restaurant web application with real-time menu updates, reservation management, and customer feedback features. Built using React.js and Express.js, the site delivers rich user interaction through Redux-powered state management.",
+    technologies: ["React.js", "Redux", "Express.js", "MySQL", "HTML5", "CSS3", "JavaScript"],
   },
   {
-    title: "E-Commerce Website",
+    title: "Developer Portfolio Website",
+    image: project3,
+    gallary: [pf1, pf2, pf3, pf4, pf5, pf6],
+    description:
+      "A personal portfolio built using React and Tailwind CSS to showcase development projects and design aesthetics. Features animated transitions, mobile responsiveness, and code optimisation for performance.",
+    technologies: ["React+Vite", "Tailwind CSS", "JavaScript"],
+  },
+  {
+    title: "E-Commerce Web Application",
     image: project4,
     description:
-      "An online shopping platform featuring product browsing, cart management, and a user-friendly checkout process.",
-    technologies: ["Node.js", "MongoDB", "HTML", "CSS", "JavaScript"],
-  },
-  {
-    title: "Modelling Influsion Diffusion Over Signed Social Networks(mini-Project)",
-    image: project1,
-    gallary:[m1,m2,m3,m4,m5,m6,m7,m8,m9],
-    description:
-      "A major project analyzing how influence spreads in positively and negatively connected social networks, focusing on network behavior modeling and diffusion analysis.",
-    technologies: ["Java", "HTML", "CSS", "JavaScript"],
-  },
-  {
-    title: "Missing Child Identification System Using SVM (Major-Project)",
-    image: project2,
-    gallary:[c1,c2,c3,c4,c5],
-    description:
-      "A computer vision-based system that uses facial recognition to assist in identifying missing children, aimed at real-world social impact.",
-    technologies: ["Python", "OpenCV", "MySQL"],
+      "A comprehensive e-commerce platform developed with AngularJS for the frontend and Django for the backend. Includes features such as product catalogue, secure user authentication, shopping cart, and payment integration.",
+    technologies: ["AngularJS", "Django", "HTML", "CSS", "JavaScript"],
   },
 ];
 
+export const TESTIMONIALS = [
+  {
+    name: "Kapila Rohan Attele",
+    company: "Academic Advisor & Mathematics Faculty",
+    image: attele,
+    quote: "Prathyusha's incisive logic and organized problem-solving abilities were on display in my Discrete Geometry class. Her capability to simplify intricate mathematical ideas is directly reflected in her skill in designing algorithms and developing backend logic. She carries analytical rigor and sound theoretical basis to her software engineering work.",
+  },
+  {
+    name: "Prabhakarrao Achanta",
+    company: "Senior Professor – Advanced Software Engineering (CSU) ",
+    image: achanta,
+    quote: "Prathyusha showcased full-stack engineering skills by building scalable APIs and integrating AI-powered features using Flask and JavaScript. Her technical fundamentals, along with agile teamwork and problem-solving, made her a gem in delivering a user-centric, production-ready solution. She is a multi-talented engineer set to excel in industry environments",
+  },
+  {
+    name: "Jo-Jo-Chern",
+    company: "Professor (CSU) ",
+    image: chern,
+    quote: "Prathyusha regularly excelled in advanced CS coursework with her solid understanding of full-stack development, system design, and application of software concepts. She's technically proficient, solution-driven, and poised to make valuable contributions to high-impact engineering teams.",
+  },
+];
+
+export const CERTIFICATIONS = [
+  {
+    title: "LeetCode Practice Milestone",
+    issuer: "LeetCode",
+    year: "Ongoing",
+    description: "Solved 50+ algorithmic challenges, demonstrating consistent progress in data structures, logic building, and code optimisation."
+  },
+  {
+    title: "Docker Foundations Professional Certificate",
+    issuer: "Docker",
+    year: "2025",
+    description: "Demonstrated proficiency in containerisation, image management, and production-grade deployment workflows."
+  },
+  {
+    title: "AWS Academy Graduate – Machine Learning for NLP",
+    issuer: "Amazon Web Services",
+    year: "2024",
+    description: "Completed comprehensive training on cloud-based ML models and NLP techniques using AWS SageMaker and related services."
+  },
+  {
+    title: "ChatGPT Prompt Engineering for Developers",
+    issuer: "OpenAI",
+    year: "2023",
+    description: "Learned advanced prompt design strategies to build effective interactions and workflows using large language models."
+  },
+  {
+    title: "Top 5% – NPTEL Joy of Computing with Python",
+    issuer: "NPTEL / IIT Madras",
+    year: "2021",
+    description: "Achieved top percentile performance in an intensive university-level programming course focused on Python."
+  },
+
+];
+
+
 export const CONTACT = {
   address: "Chicago IL 60616 ",
+  phoneNo: "+1 (815)482-5848",
   email: "gadiprathyusha2712@gmail.com",
 };
