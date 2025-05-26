@@ -1,8 +1,24 @@
-# React + Vite
+Redeploy on Future Updates
+Each time you make changes and want to redeploy:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+always check index.html, package.json, vit.config.js
+bash
 
-Currently, two official plugins are available:
+# 1. Build
+npm run build
+cp -r dist ../deploy-temp
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 2. Switch to gh-pages
+git checkout --orphan gh-pages
+git reset --hard
+git clean -fdx
+
+# 3. Copy new build
+cp -r ../deploy-temp/* .
+git add .
+git commit -m "Update deployment"
+git push origin gh-pages --force
+
+# 4. Return to main
+git checkout main
+rm -r ../deploy-temp
