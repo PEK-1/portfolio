@@ -28,15 +28,13 @@ import attele from '../assets/testimonials/attele.png';
 
 import TripTrek from "../assets/projects/project1/TripTrek.mp4"
 import indinenne from "../assets/projects/project2/indinenne.mp4"
-export const HERO_CONTENT = `I'm a recent Master's graduate in Computer Science, passionate about full-stack development. 
-          I have hands-on experience building responsive web applications using frontend technologies like React, HTML, CSS, and JavaScript, and backend frameworks like Node.js, Django, and Flask. 
-          I'm skilled in working with databases (MySQL, MongoDB) and cloud platforms (AWS), and I focus on building user-centered applications that deliver seamless and impactful experiences.`;
+export const HERO_CONTENT = `I'm a newly minted Master's graduate in Computer Science with a strong interest in software engineering and full-stack development. I have hands-on experience in building responsive, user-centered web applications with frontend frameworks such as React, HTML, CSS, and JavaScript, and backend frameworks such as Node.js, Django, and Flask. I'm proficient in working with relational and NoSQL databases like MySQL and MongoDB and deploying applications on cloud platforms like AWS. I'm looking forward to applying my skills to build scalable, efficient, and effective software solutions in a collaborative engineering environment.`;
 
-export const ABOUT_TEXT = `Curiosity drives everything I do. Whether it’s debugging a tricky backend issue or designing intuitive user flows, I enjoy understanding how things work and how to make them better. My journey in tech has taken me from developing dynamic web apps to integrating cloud services and deploying scalable solutions—always with a focus on creating meaningful user experiences.
+export const ABOUT_TEXT = `Curiosity drives everything I do. Whether debugging that frustrating backend bug or designing user flows that are just plain intuitive, I am fascinated by understanding how things tick and how I can make them better. My journey through the tech world has involved me moving from creating dynamic web applications to incorporating cloud services and rolling out scalable solutions—always to create significant user experiences.
 
-With a Master’s in Computer Science and a knack for full-stack development, I bring both depth and versatility to every project. I thrive in collaborative environments where ideas flow freely, feedback fuels growth, and every line of code contributes to something bigger.
+With a Master's in Computer Science and a full-stack development skillset, I am both profound and adaptable in all that I do. I thrive in team environments where ideas ever-flow, feedback births growth, and each line of code is something more.
 
-Outside the screen, I’m always up for exploring new tools, learning emerging technologies, and sharing what I know with others. Whether it’s a side project or a team-driven application, I aim to build software that solves real problems and feels good to use.
+Outside of the screen, I'm eager to learn new tools, discover new technologies, and share what I've learned with others. Team-based applications or side projects, I want to make software that is fun and beneficial to use.
 
 Let’s connect, collaborate, and create.`;
 
@@ -156,6 +154,6 @@ export const CERTIFICATIONS = [
 
 export const CONTACT = {
   address: "Chicago IL 60616 ",
-  phoneNo: "+1 (815)482-5848",
-  email: "gadiprathyusha2712@gmail.com",
+  phoneNo: "+19802770015",
+  email: "pg4852630@gmail.com",
 };

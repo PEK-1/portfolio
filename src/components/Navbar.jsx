@@ -6,12 +6,12 @@ import { FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="mb-18 flex items-center justify-between py-6">
+    <nav className="mt-2 mb-6 flex items-center justify-between py-2 px-4">
       <div className="flex flex-shrink-0 items-center">
-        <img className="mx-6 w-12" src={logo} alt="logo" />
+        <img className="mx-7 w-14" src={logo} alt="logo" />
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-      <a
+      <div className="m-4 flex items-center justify-center gap-4 text-2xl text-white">
+        <a
           href="https://www.linkedin.com/in/prathyusha-g-2b911123a/"
           target="_blank"
           rel="noopener noreferrer"
@@ -19,7 +19,7 @@ const Navbar = () => {
         >
           <FaLinkedin />
         </a>
-      <a
+        <a
           href="https://github.com/PEK-1"
           target="_blank"
           rel="noopener noreferrer"
