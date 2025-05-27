@@ -14,7 +14,7 @@ git reset --hard
 git clean -fdx
 
 # 3. Copy new build
-cp -r ../deploy-temp/* .
+Copy-Item ../deploy-temp/* -Destination . -Recurse -Force
 git add .
 git commit -m "Update deployment"
 git push origin gh-pages --force
