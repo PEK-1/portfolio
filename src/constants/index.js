@@ -28,7 +28,7 @@ import attele from '../assets/testimonials/attele.png';
 
 import TripTrek from "../assets/projects/project1/TripTrek.mp4"
 import indinenne from "../assets/projects/project2/indinenne.mp4"
-export const HERO_CONTENT = `I'm a newly minted Master's graduate in Computer Science with a strong interest in software engineering and full-stack development. I have hands-on experience in building responsive, user-centered web applications with frontend frameworks such as React, HTML, CSS, and JavaScript, and backend frameworks such as Node.js, Django, and Flask. I'm proficient in working with relational and NoSQL databases like MySQL and MongoDB and deploying applications on cloud platforms like AWS. I'm looking forward to applying my skills to build scalable, efficient, and effective software solutions in a collaborative engineering environment.`;
+export const HERO_CONTENT = `I'm a newly minted Master's graduate in Computer Science with a strong interest in software engineering and full-stack development. I have hands-on experience in building responsive, user-centered web applications with frontend frameworks such as React, HTML, CSS, and JavaScript, and backend frameworks such as Java, Node.js, Django, and Flask. I'm proficient in working with relational and NoSQL databases like PostgreSQL, MySQL and MongoDB and deploying applications on cloud platforms like AWS. I'm looking forward to applying my skills to build scalable, efficient, and effective software solutions in a collaborative engineering environment.`;
 
 export const ABOUT_TEXT = `Curiosity drives everything I do. Whether debugging that frustrating backend bug or designing user flows that are just plain intuitive, I am fascinated by understanding how things tick and how I can make them better. My journey through the tech world has involved me moving from creating dynamic web applications to incorporating cloud services and rolling out scalable solutions—always to create significant user experiences.
 
@@ -41,18 +41,26 @@ Let’s connect, collaborate, and create.`;
 export const EXPERIENCES = [
   {
     year: "2023",
-    role: "Project Manager Intern",
-    company: "Excelerate Program",
+    role: "Project Manager",
+    company: "Excelerate",
     description: `Orchestrated cross-functional virtual project teams to tackle real-world business problems. Led Agile sprint planning, coordinated stakeholder communication, and delivered data-driven dashboards using Excel and Power BI. Strengthened project outcomes through effective risk mitigation and strategic resource allocation.`,
     technologies: ["Excel", "Power BI", "Agile Methodologies", "Risk Management", "Leadership"],
   },
   {
-    year: "2021 - 2023",
-    role: "Software Engineer",
-    company: "Rayon Technology Solutions Pvt. Ltd.",
-    description: `Developed and maintained scalable full-stack web applications using Python, Django, and REST APIs. Improved system performance by 15% through backend optimisations. Collaborated with frontend and mobile teams to ensure seamless API integration. Followed Agile methodologies and participated in pair programming, daily stand-ups, and system design discussions.`,
-    technologies: ["Python", "Django", "REST API", "PostgreSQL", "Docker", "CI/CD", "Agile"],
+  year: "2023",
+  role: "Data Analyst Intern",
+  company: "Excelerate",
+  description: `Completed a 4-week remote internship focused on business data analysis and visualization. Strengthened skills in data storytelling, critical thinking, and visual design for stakeholder presentations. Worked in cross-functional teams and received mentorship from industry project heads.`,
+  skills: ["Data Visualization", "Critical Thinking", "Communication", "Time Management", "Collaboration"]
   },
+ {
+  year: "2021 - 2023",
+  role: "Software Engineer",
+  company: "Rayon Technology Solutions Pvt. Ltd.",
+  description: `Developed and maintained scalable backend applications using Java and REST APIs. Enhanced system performance by 15% through backend optimizations and database tuning. Collaborated with frontend and mobile teams for seamless API integration. Worked in Agile teams using Jira, Jenkins, and participated in sprint planning, code reviews, and daily stand-ups.`,
+  skills: ["Java", "REST API", "PostgreSQL", "SQL", "Python", "CI/CD", "Jira", "Jenkins", "SDLC", "Agile"],
+ },
+
   {
     year: "2021",
     role: "Freelance Android Developer",
@@ -153,7 +161,7 @@ export const CERTIFICATIONS = [
 
 
 export const CONTACT = {
-  address: "Chicago IL 60616 ",
+  address: "Charlotte, NC",
   phoneNo: "+19802770015",
   email: "pg4852630@gmail.com",
 };
