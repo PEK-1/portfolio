@@ -51,14 +51,14 @@ export const EXPERIENCES = [
   role: "Data Analyst Intern",
   company: "Excelerate",
   description: `Completed a 4-week remote internship focused on business data analysis and visualization. Strengthened skills in data storytelling, critical thinking, and visual design for stakeholder presentations. Worked in cross-functional teams and received mentorship from industry project heads.`,
-  skills: ["Data Visualization", "Critical Thinking", "Communication", "Time Management", "Collaboration"]
+  technologies: ["Data Visualization", "Critical Thinking", "Communication", "Time Management", "Collaboration"]
   },
  {
   year: "2021 - 2023",
   role: "Software Engineer",
   company: "Rayon Technology Solutions Pvt. Ltd.",
   description: `Developed and maintained scalable backend applications using Java and REST APIs. Enhanced system performance by 15% through backend optimizations and database tuning. Collaborated with frontend and mobile teams for seamless API integration. Worked in Agile teams using Jira, Jenkins, and participated in sprint planning, code reviews, and daily stand-ups.`,
-  skills: ["Java", "REST API", "PostgreSQL", "SQL", "Python", "CI/CD", "Jira", "Jenkins", "SDLC", "Agile"],
+  technologies: ["Java", "REST API", "PostgreSQL", "SQL", "Python", "CI/CD", "Jira", "Jenkins", "SDLC", "Agile"],
  },
 
   {
